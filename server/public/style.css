@@ -1,0 +1,73 @@
+svg.patternlock g.lock-actives circle {
+    fill: black;
+    opacity: .2;
+    animation: lock-activate-dot .15s 0s ease 1;
+    transform-origin: center;
+}
+
+svg.patternlock g.lock-lines line {
+    stroke-width: 1.5;
+    stroke-linecap: round;
+    stroke: black;
+    opacity: 0.5;
+}
+
+svg.patternlock g.lock-dots circle {
+    stroke: transparent;
+    fill: black;
+    stroke-width: 13.5;
+}
+
+svg.patternlock {
+    position: absolute;
+}
+
+svg.patternlock.success g.lock-actives circle {
+    fill: green;
+}
+
+svg.patternlock.success g.lock-lines line {
+    stroke: green;
+}
+
+svg.patternlock.error g.lock-actives circle {
+    fill: red;
+}
+
+svg.patternlock.error g.lock-lines line {
+    stroke: red;
+}
+
+@keyframes lock-activate-dot {
+    0% {
+        transform: scale(0);
+    }
+    75% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1.0);
+    }
+}
+
+.patterngrid {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+
+.bd-border {
+    border: solid #f8f9fa;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+.col-sm {
+    width: initial;
+}
+@media (min-width: 576px) {
+    .col-sm {
+        flex-basis: initial!important;
+    }
+}

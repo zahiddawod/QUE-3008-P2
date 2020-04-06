@@ -1,0 +1,11 @@
+{
+    "name": "3008patternscheme",
+    "version": "1.0.0",
+    "description": "A project for COMP3008 that implements a pattern password scheme",
+    "main": "app.js",
+    "scripts": {
+        "test": "node app.js"
+    },
+    "author": "Laker Nation",
+    "license": "ISC"
+}  
