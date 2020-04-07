@@ -9,6 +9,7 @@
 </head>
 <body>
     <div class="container">
+         <!-- the upper border contains main buttons and information -->
         <div class="bd-border">
             <div id="title" style="text-align: center;">
                 <h1>{{CONTEXT}} ({{ACTION}})</h1>
@@ -32,6 +33,7 @@
             <button id="nextbtn" type="button" class="btn btn-primary mb-2" onclick="Next()" style="float: right;" disabled>Next</button>
             <p id="numattempts" style="text-align: center; display: none;">{{x}} Attempt(s) Left</p>
         </div>
+         <!-- the pattern grid where the user is shown their given password -->
         <div id="givenGrid" class="patterngrid" style="float: left;">
             <svg id="givenPattern" class="patternlock" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
                 <defs>
@@ -44,6 +46,7 @@
                 <g id="g-dots" class="lock-dots"></g>
             </svg>
         </div>
+        <!-- the pattern grid where the user is inputs their password -->
         <div id="grid" class="patterngrid" style="float: right;">
             <svg id="inputPattern" class="patternlock" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
                 <defs>
@@ -58,6 +61,7 @@
             </svg>
         </div>
     </div>
+    <!-- main script -->
     <script src="index.js"></script>
 </body>
 </html>
