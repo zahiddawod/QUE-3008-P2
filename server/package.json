@@ -1,6 +1,6 @@
 {
-    "name": "3008patternscheme",
-    "version": "1.0.0",
+    "name": "LakerNationPatternScheme",
+    "version": "1.0.1",
     "description": "A project for COMP3008 that implements a pattern password scheme",
     "main": "app.js",
     "scripts": {
