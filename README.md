@@ -4,7 +4,9 @@
 The server/ folder contains the source code for hosting the node server and for the password scheme.
 
 <h2>Prerequisites</h2>
-You will need Python 3.x.x for this program to work.
+Versions of npm and node that were tested when building this app:
+npm -v 6.7.0
+node -v 11.14.0
 
 <h2>File list</h2>
  - app.js: The main javascript file that starts the express server
@@ -14,10 +16,6 @@ You will need Python 3.x.x for this program to work.
  - style.css: Stylesheet for the main page with classes for different states.
 
 <h2>How to use</h2>
-Versions of npm and node that were tested when building this app:
-npm -v 6.7.0
-node -v 11.14.0
-
 Install the modules:
 - npm install
 
