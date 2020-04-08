@@ -5,6 +5,7 @@ The server/ folder contains the source code for hosting the node server and for 
 
 <h2>Prerequisites</h2>
 Versions of npm and node that were tested when building this app:
+
 npm -v 6.7.0
 node -v 11.14.0
 
@@ -26,7 +27,6 @@ Install the modules:
 - npm install
 
 Run the program:
-
 - npm run test
 
 The server will be hosted on port 30020 and can be visited at http://localhost:30020
