@@ -9,6 +9,7 @@ npm -v 6.7.0
 node -v 11.14.0
 
 <h2>File list</h2>
+
  - app.js: The main javascript file that starts the express server
 
  - package.json: Contains all the dependencies required for the server to work as well as other metadata and releveant information about the project
@@ -16,7 +17,7 @@ node -v 11.14.0
  - index.html: Is the main html page that is served when the client visits the site
 
  - index.js: Holds the logic behind manipulating the HTML elements and password scheme
- 
+
  - style.css: Stylesheet for the main page with classes for different states.
 
 <h2>How to use</h2>
