@@ -22,9 +22,11 @@ node -v 11.14.0
 
 <h2>How to use</h2>
 Install the modules:
+
 - npm install
 
 Run the program:
+
 - npm run test
 
 The server will be hosted on port 30020 and can be visited at http://localhost:30020
