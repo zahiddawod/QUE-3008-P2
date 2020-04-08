@@ -7,6 +7,7 @@ The server/ folder contains the source code for hosting the node server and for 
 Versions of npm and node that were tested when building this app:
 
 npm -v 6.7.0
+
 node -v 11.14.0
 
 <h2>File list</h2>
