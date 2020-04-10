@@ -22,6 +22,8 @@ node -v 11.14.0
 
  - style.css: Stylesheet for the main page with classes for different states.
 
+ - patternDataParser.py: This data parses the output file that is generated when the user completes the pattern scheme test (logdata.csv)
+
 <h2>How to use</h2>
 Install the modules:
 
